@@ -1,0 +1,95 @@
+body {
+  background: #000;
+  
+}
+.jumbotron {
+  background-color: #22333b;
+
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+
+  margin: 0 40% !important;
+  text-align: center;
+  -webkit-animation: spin 10s linear infinite;
+  -moz-animation: spin 10s linear infinite;
+  animation: spin 10s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}
+
+.black {
+  color: black;
+}
+.yellow {
+  color: #fcd61a;
+}
+
+.bg-gray{
+    background-color: #22333b;
+}
+.bold {
+  font-weight: bolder;
+}
+
+button {
+  background-color: #fcd61a !important;
+  color: black !important;
+  font-weight: bolder !important ;
+  border: none !important;
+}
+
+select, input{
+    color:black !important;
+    background-color: #fcd61a !important;
+    font-weight: bold;
+    border:none!important;
+    
+}
+select:active, select:hover{
+    color:black;
+    background-color: #fcd61a!important;
+    border:none!important;
+}
+
+
+
+
+.col-lg-6{
+    border-left:solid #fcd61a 1px;
+    border-right:solid #fcd61a 1px;
+}
+
+hr{
+    color: #fcd61a !important;
+    background-color: #fcd61a !important;
+}
+
+.no-border{
+    border: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #fcd61a;
+    margin: 1em 0;
+    padding: 0; 
+}
